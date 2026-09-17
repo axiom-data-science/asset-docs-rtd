@@ -1,0 +1,8 @@
+services:
+  app:
+    image: "asset-docs-rtd:latest"
+    build:
+      context:    .
+      dockerfile: Dockerfile
+    ports:
+     - 7676:80

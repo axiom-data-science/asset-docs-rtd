@@ -1,0 +1,21 @@
+.gitlab-card {
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px #bbb;
+  display: inline-block;
+  padding: 1em;
+  width: 80%;
+  margin-bottom: 2em;
+}
+.gitlab-card .gitlab-project-name {
+  margin: 0.5em;
+  font-weight: bold;
+}
+.gitlab-card .gitlab-project-description {
+  margin: 0.5em;
+}
+.gitlab-card .description-container {
+  display: inline-block;
+  width: 60%;
+  vertical-align: middle;
+}
+

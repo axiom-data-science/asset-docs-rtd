@@ -1,0 +1,12 @@
+ARG baseimage
+
+FROM $baseimage
+
+USER root
+
+RUN apt-get update && apt-get install -y git && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+USER docuser
+
+COPY --chown=docuser:docuser dev-requirements.txt /tmp/dev-requirements.txt
+RUN uv pip install --system -r /tmp/dev-requirements.txt && rm /tmp/dev-requirements.txt
