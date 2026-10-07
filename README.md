@@ -1,5 +1,4 @@
-Asset Docs RTD
-==============
+# Asset Docs RTD
 
 
 A Read-the-Docs (RTD) repository housing information specific to building and
@@ -10,19 +9,22 @@ Copyright 2026, Axiom Data Science, LLC
 See LICENSE for details.
 
 
-Building the Documentation
---------------------------
+## Building the Documentation
 
-To set up a local environment with `uv`_, create a virtual environment and
+To set up a local environment with [uv][_uv], create a virtual environment and
 install the documentation dependencies::
 
-    uv venv
-    uv pip install -r requirements.txt
-    source .venv/bin/activate
+```shell
+uv venv
+uv pip install -r requirements.txt
+source .venv/bin/activate
+```
 
 There is a `Makefile` available which can be used to compile the source documents into the HTML product viewable by web browsers::
 
-    make html
+```shell
+make html
+```
 
 The command produces a compiled product under the `build` directory.
 
@@ -37,9 +39,10 @@ new content.
 mkdir -p ./build && sphinx-autobuild ./source/ ./build/
 ```
 
-...then browse to::
+...then browse to:
 
-http://127.0.0.1:8000
+<http://127.0.0.1:8000>
 
+---
 
-.. _uv: https://docs.astral.sh/uv/
+[_uv]: https://docs.astral.sh/uv/
