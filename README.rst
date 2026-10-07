@@ -26,4 +26,20 @@ There is a `Makefile` available which can be used to compile the source document
 
 The command produces a compiled product under the `build` directory.
 
+Live Preview (sphinx-autobuild)
+-------------------------------
+
+If you would like to develop locally, you can use the `sphinx-autobuild` utility
+to automatically build, host, and refresh any connected web browser to view
+new content.
+
+```shell
+mkdir -p ./build && sphinx-autobuild ./source/ ./build/
+```
+
+...then browse to::
+
+http://127.0.0.1:8000
+
+
 .. _uv: https://docs.astral.sh/uv/
