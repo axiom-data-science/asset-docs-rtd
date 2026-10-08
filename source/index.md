@@ -9,7 +9,7 @@ This project is maintained by [Axiom Data Science (AXDS)][axds] (a
 
 ## Welcome!
 
-This is the Asset Docs technical docuemntation. The purpose of
+This is the Asset Docs technical documentation. The purpose of
 this document collection is to help you with the following:
 
 *   To understand the broad purpose of the Asset Docs stack.
@@ -21,9 +21,10 @@ this document collection is to help you with the following:
 
 ## Getting Started
 
-To get started, please see the following:
+To get started with installing and setting up Asset Docs, please see the
+following:
 
-*   [INSTALL](doc/INSTALL)
+*   [INSTALL](doc/INSTALL), with quick start instructions.
 
 
 ## Reference Repositories
